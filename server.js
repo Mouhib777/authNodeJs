@@ -10,7 +10,8 @@ const app = express();
 app.use(bodyParser.json());
 
 const dbUrl =
-  "mongodb+srv://mouhibm777:60X51JWQjenbYYp3@cluster0.ykkardn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+//mongodb+srv://mouhibm777:60X51JWQjenbYYp3@cluster0.ykkardn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+  "";
 mongoose
   .connect(dbUrl, {
     useNewUrlParser: true,
